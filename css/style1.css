@@ -1,0 +1,134 @@
+.Quiz{
+    color:#34ad00;
+  
+}
+
+
+
+    /* Stilurile pentru containerul de chat */
+#chat-container {
+    border: 1px solid #ccc;
+    padding: 15px;
+    height: 300px;
+    overflow-y: scroll;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stilurile pentru textarea și butonul de trimitere */
+#message-box {
+    width: calc(100% - 30px);
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    resize: none; /* Previne redimensionarea textarea-ului */
+}
+
+#send-button {
+    width: 300px; /* Ajustează lățimea dorită */
+    padding: 8px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+#send-button:hover {
+    background-color: #084873;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around; /* sau space-between, în funcție de preferințe */
+    align-items: center;
+}
+
+.image-wrapper {
+    text-align: center;
+    margin: 0; /* Elimină marginea pentru a reduce spațiul între imagini */
+}
+
+.image-wrapper img {
+    display: block;
+    margin: 0 auto;
+}
+
+.image-wrapper p {
+    margin-top: 5px; /* Spațiu între imagine și text */
+   
+    font-size: 1.2em; /* Dimensiunea textului */
+}
+
+.stomac {
+    text-align: center; /* Afișează textul în centrul paginii */
+}
+#decisionTree {
+    text-align: center; /* Aliniere text la centru */
+    margin-top: 20px; /* Spațiu deasupra conținutului */
+
+}
+#decisionTree h2 {
+    color: #2b8a02; /* Culoră text */
+    border: 1px solid #2b8a02; /* Adaugă o linie solidă în jurul textului */
+    border-radius: 20px; /* Rotunjirea colțurilor cadrelor */
+    padding: 20px; /* Adaugă spațiu între text și cadru */
+}
+#question {
+    color: green; /* Culoarea textului întrebării */
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
+#button-container {
+    display: flex;
+    justify-content: center; /* Aliniere butoane pe orizontală */
+   
+}
+
+#yesBtn,
+#noBtn {
+    margin: 0 10px; /* Spațiu între butoane */
+    background-color:#2b8a02;
+    color: #f9f9f9;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px; 
+}
+
+.alert-box {
+    background-color: #efd2d2; /* fundal gri deschis */
+    color: #000000; /* culoarea textului albastru */
+    border: 3px solid #ff0000; /* margine subtilă */
+    padding: 30px; /* spațiu în interiorul casetei */
+    position: relative; /* necesar pentru poziționarea butonului de închidere */
+    font-family: Arial, sans-serif; /* fontul textului */
+    margin: 20px; /* spațiu în jurul casetei */
+    border-radius: 5px; /* colțuri rotunjite */
+    width: 20%; /* ajustează această valoare pentru a controla lățimea */
+    float: left; /* aliniere la stânga */
+    top: 0px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .close-btn {
+    position: absolute; /* butonul de închidere va fi absolut poziționat */
+    top: 5px; /* poziționat la 5px de partea de sus */
+    right: 10px; /* și 10px de partea dreaptă */
+    cursor: pointer; /* cursor ca un pointer pentru a indica acțiunea */
+    font-size: 20px; /* mărimea fontului mai mare pentru X */
+  }
